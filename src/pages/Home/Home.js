@@ -20,7 +20,7 @@ const Home = () => {
         <Section2 />
 
         {/* Home Section Menu */}
-        <Section3 />
+        {/* <Section3 /> */}
 
         {/* Home Section Promotion */}
         <Section4 />

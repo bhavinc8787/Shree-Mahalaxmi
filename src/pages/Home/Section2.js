@@ -9,18 +9,18 @@ import Delivery from "../../assets/about/delivery-bike.png";
 const mockData = [
   {
     image: Pizza,
-    title: "Original",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "Wedding Catering",
+    paragraph: `Exquisite catering for weddings, offering a wide range of delicious dishes to make your special day memorable. Experience premium service and flavors your guests will love.`,
   },
   {
     image: Salad,
-    title: "Qualty Foods",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "Quality Food",
+    paragraph: `We use the finest ingredients to craft meals that bring people together. Perfect for family gatherings, birthdays, and celebrations of all sizes.`,
   },
   {
     image: Delivery,
-    title: "Fastest Delivery",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "On-Time Service",
+    paragraph: `Timely and professional catering for office events, corporate meetings, and special occasions. Fresh, flavorful, and delivered with care.`,
   },
   // Add more mock data objects as needed
 ];

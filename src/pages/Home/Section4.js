@@ -9,30 +9,29 @@ function Section4() {
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center mb-5 mb-lg-0">
-              <img src={PromotionImage} className="img-fluid" alt="Promotion" />
+              <img src={PromotionImage} className="img-fluid" alt="Catering Promotion" />
             </Col>
             <Col lg={6} className="px-5">
-              <h2>Nothing brings people together like a good burger</h2>
+              <h2>Nothing brings people together like great food</h2>
               <p>
-                Semper lacus cursus porta primis ligula risus tempus and
-                sagittis ipsum mauris lectus laoreet purus ipsum tempor enim
-                ipsum porta justo integer ultrice aligula lectus aenean magna
-                and pulvinar purus at pretium gravida
+                Whether it's a wedding, family gathering, or corporate event, 
+                our catering service ensures a delightful dining experience with 
+                flavors that leave a lasting impression.
               </p>
               <ul>
                 <li>
                   <p>
-                    Fringilla risus, luctus mauris orci auctor purus euismod
-                    pretium purus pretium ligula rutrum tempor sapien
+                    Freshly prepared dishes, customized to suit your occasion 
+                    and guest preferences.
                   </p>
                 </li>
                 <li>
-                  <p>Quaerat sodales sapien euismod purus blandit</p>
+                  <p>High-quality ingredients, ensuring taste and hygiene.</p>
                 </li>
                 <li>
                   <p>
-                    Nemo ipsam egestas volute turpis dolores ut aliquam quaerat
-                    sodales sapien undo pretium a purus mauris
+                    Professional service, on-time delivery, and an unforgettable 
+                    culinary experience for all your events.
                   </p>
                 </li>
               </ul>
