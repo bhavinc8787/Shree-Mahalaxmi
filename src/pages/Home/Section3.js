@@ -171,7 +171,7 @@ const Image5 = "https://images.pexels.com/photos/8887011/pexels-photo-8887011.jp
 const Image6 = "https://images.pexels.com/photos/7182054/pexels-photo-7182054.jpeg"
 // const Image7 = "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
 // const Image8 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-const Image90 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+// const Image90 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 const Image10 = "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
 // const Image11 = "https://images.pexels.com/photos/28674713/pexels-photo-28674713/free-photo-of-delicious-indian-jeera-rice-in-ladle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 // const Image12 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
