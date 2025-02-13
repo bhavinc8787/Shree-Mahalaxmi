@@ -8,6 +8,7 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
+import ContactMe from "./ContactUs.jsx";
 
 const Home = () => {
   return (
@@ -26,13 +27,15 @@ const Home = () => {
         <Section4 />
 
         {/* Home Section Shop */}
-        <Section5 />
+        {/* <Section5 /> */}
 
         {/* Home Section Blog */}
         <Section6 />
 
         {/* Home Section Contact */}
         <Section7 />
+
+        <ContactMe/>
       </Layout>
     </>
   );

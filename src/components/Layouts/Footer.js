@@ -23,34 +23,33 @@ function Footer() {
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
   });
+
   return (
     <>
-      <footer>
+      <footer id="footer">
         <Container>
           <Row>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Location</h5>
-                <p>5505 Waterford District</p>
-                <p>Dr, Miami, FL 33126</p>
-                <p>United States</p>
+                <p>301,Granth Complex</p>
+                <p>Vaibhav Nagar,gruhpune</p>
+                <p>Pune-411044</p>
               </div>
             </Col>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Working Hours</h5>
-                <p>Mon-Fri: 9:00AM - 10:00PM</p>
-                <p>Saturday: 10:00AM - 8:30PM</p>
-                <p>Sunday: 12:00PM - 5:00PM</p>
+                <p>Open 24/7</p>
               </div>
             </Col>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
-                <h5>Order Now</h5>
-                <p>Quaerat neque purus ipsum</p>
+                <h5>Contact Now</h5>
+                {/* <p>Delicious food at your doorstep</p> */}
                 <p>
-                  <Link to="tel:9998887777" className="calling">
-                    999-888-7777
+                  <Link to="tel:+917507938251" className="calling">
+                    7507938251
                   </Link>
                 </p>
               </div>
@@ -58,26 +57,26 @@ function Footer() {
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Follow Us</h5>
-                <p>Quaerat neque purus ipsum</p>
+                <p>Stay connected with us</p>
                 <ul className="list-unstyled text-center mt-2">
                   <li>
                     <Link to="/">
-                      <i class="bi bi-facebook"></i>
+                      <i className="bi bi-facebook"></i>
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i class="bi bi-twitter"></i>
+                      <i className="bi bi-twitter"></i>
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i class="bi bi-instagram"></i>
+                      <i className="bi bi-instagram"></i>
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i class="bi bi-youtube"></i>
+                      <i className="bi bi-youtube"></i>
                     </Link>
                   </li>
                 </ul>
@@ -90,7 +89,7 @@ function Footer() {
                 <ul className="list-unstyled text-center mb-0">
                   <li>
                     <Link to="/">
-                      © 2023 <span>CODE4EDUCATION</span>. All Rights Reserved
+                      © 2025 <span>Shree Mahalaxmi Cateres</span>. All Rights Reserved
                     </Link>
                   </li>
                   <li>
@@ -109,10 +108,10 @@ function Footer() {
         </Container>
       </footer>
 
-      {/* Sroll To Top */}
+      {/* Scroll To Top */}
       {isVisible && (
         <div className="scroll_top" onClick={scrollTop}>
-          <i class="bi bi-arrow-up"></i>
+          <i className="bi bi-arrow-up"></i>
         </div>
       )}
     </>
