@@ -10,7 +10,7 @@ const Section1 = () => {
         <Row>
           <Col lg={7} className="mb-5 mb-lg-0">
             <div className="position-relative">
-              <img src={Burger} className="img-fluid" alt="Hero" />
+              <img src="https://res.cloudinary.com/dh9xotzan/image/upload/v1739560674/ntrrwqf5iqud9fbei0ou.png" className="img-fluid" alt="Hero" />
               <div className="price_badge">
                 <div className="badge_text">
                   <h4 className="h4_xs">Contact</h4>
