@@ -69,28 +69,112 @@ export default function ContactMe() {
         <p style={{ fontSize: "16px", color: "#4f4f4f" }}>Feel free to reach out for inquiries, collaborations, or feedback!</p>
       </div>
       <form style={{ maxWidth: "500px", margin: "auto" }}>
-        <div style={{ display: "flex", gap: "10px" }}>
-          <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} placeholder="First Name" required style={{ flex: "1", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }} />
-          <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} placeholder="Last Name" required style={{ flex: "1", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }} />
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <input
+            type="text"
+            name="firstName"
+            value={formData.firstName}
+            onChange={handleChange}
+            placeholder="First Name"
+            required
+            style={{
+              flex: "1",
+              padding: "10px",
+              borderRadius: "5px",
+              border: "1px solid #ccc",
+              width: "100%",
+              minWidth: "120px",
+            }}
+          />
+          <input
+            type="text"
+            name="lastName"
+            value={formData.lastName}
+            onChange={handleChange}
+            placeholder="Last Name"
+            required
+            style={{
+              flex: "1",
+              padding: "10px",
+              borderRadius: "5px",
+              border: "1px solid #ccc",
+              width: "100%",
+              minWidth: "120px",
+            }}
+          />
         </div>
-        <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }} />
-        <input type="number" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }} />
-        <select name="topic" value={formData.topic} onChange={handleChange} style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          placeholder="Email"
+          required
+          style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        />
+        <input
+          type="number"
+          name="phoneNumber"
+          value={formData.phoneNumber}
+          onChange={handleChange}
+          placeholder="Phone Number"
+          required
+          style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        />
+        <select
+          name="topic"
+          value={formData.topic}
+          onChange={handleChange}
+          style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        >
           <option value="">Select One...</option>
           <option value="Feedback">Feedback</option>
           <option value="Inquiry">Inquiry</option>
           <option value="Collaboration">Collaboration</option>
         </select>
-        <textarea name="message" rows="4" value={formData.message} onChange={handleChange} placeholder="Message" style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }} />
+        <textarea
+          name="message"
+          rows="4"
+          value={formData.message}
+          onChange={handleChange}
+          placeholder="Message"
+          style={{ width: "100%", marginTop: "10px", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        />
         <label style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
           <input type="checkbox" name="acceptTerms" checked={formData.acceptTerms} onChange={handleChange} required />
           <span style={{ marginLeft: "5px" }}>I accept the terms</span>
         </label>
-        <div style={{ display: "flex", gap: "10px", marginTop: "15px" }}>
-          <button type="button" onClick={handleEmailSubmit} style={{ flex: "1", padding: "10px", backgroundColor: "#fbc02d", color: "#fff", border: "none", borderRadius: "5px", cursor: "pointer" }}>
+        <div style={{ display: "flex", gap: "10px", marginTop: "15px", flexWrap: "wrap" }}>
+          <button
+            type="button"
+            onClick={handleEmailSubmit}
+            style={{
+              flex: "1",
+              padding: "10px",
+              backgroundColor: "#fbc02d",
+              color: "#fff",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              minWidth: "140px",
+            }}
+          >
             <FaEnvelope style={{ marginRight: "5px" }} /> Email
           </button>
-          <button type="button" onClick={handleWhatsAppRedirect} style={{ flex: "1", padding: "10px", backgroundColor: "#2e7d32", color: "#fff", border: "none", borderRadius: "5px", cursor: "pointer" }}>
+          <button
+            type="button"
+            onClick={handleWhatsAppRedirect}
+            style={{
+              flex: "1",
+              padding: "10px",
+              backgroundColor: "#2e7d32",
+              color: "#fff",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              minWidth: "140px",
+            }}
+          >
             <FaWhatsapp style={{ marginRight: "5px" }} /> WhatsApp
           </button>
         </div>

@@ -206,7 +206,7 @@
 
 /* Home Parallax 5.0 */
 .bg_parallax_scroll {
-  background: url("../assets/parallax/bg.png") no-repeat center center;
+  background: url("https://res.cloudinary.com/dh9xotzan/image/upload/v1739701865/sik1voqaqfsarasq7tba.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
