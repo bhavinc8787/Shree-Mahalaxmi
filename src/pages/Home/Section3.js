@@ -156,12 +156,12 @@ import { Container, Row, Col } from "react-bootstrap";
  import Image9 from "../../assets/menu/09.png";
  import Image11 from "../../assets/menu/11.png";
  import Image12 from "../../assets/menu/08.png";
- import Image8 from "../../assets/menu/088.png";
- import Image7 from "../../assets/menu/07.png";
- import Image13 from "../../assets/menu/13.png";
- import Image14 from "../../assets/menu/14.png";
- import Image15 from "../../assets/menu/15.png";
- import Image16 from "../../assets/menu/16.png";
+//  import Image8 from "../../assets/menu/088.png";
+//  import Image7 from "../../assets/menu/07.png";
+//  import Image13 from "../../assets/menu/13.png";
+//  import Image14 from "../../assets/menu/14.png";
+//  import Image15 from "../../assets/menu/15.png";
+//  import Image16 from "../../assets/menu/16.png";
 import Cards from "../../components/Layouts/Cards";
 const Image1 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 const Image2 = "https://images.pexels.com/photos/30570738/pexels-photo-30570738/free-photo-of-assorted-indian-street-food-in-mumbai.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
