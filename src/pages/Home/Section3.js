@@ -153,9 +153,9 @@ import { Container, Row, Col } from "react-bootstrap";
 // import Image5 from "../../assets/menu/image5.jpg";
 // import Image6 from "../../assets/menu/image6.jpg";
 // import Image7 from "../../assets/menu/image7.jpg";
- import Image9 from "../../assets/menu/09.png";
- import Image11 from "../../assets/menu/11.png";
- import Image12 from "../../assets/menu/08.png";
+//  import Image9 from "../../assets/menu/09.png";
+//  import Image11 from "../../assets/menu/11.png";
+//  import Image12 from "../../assets/menu/08.png";
 //  import Image8 from "../../assets/menu/088.png";
 //  import Image7 from "../../assets/menu/07.png";
 //  import Image13 from "../../assets/menu/13.png";
@@ -171,10 +171,10 @@ const Image5 = "https://images.pexels.com/photos/8887011/pexels-photo-8887011.jp
 const Image6 = "https://images.pexels.com/photos/7182054/pexels-photo-7182054.jpeg"
 // const Image7 = "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
 // const Image8 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-// const Image90 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+const Image9 = "https://res.cloudinary.com/dh9xotzan/image/upload/v1739823271/jcni75dv4ngeyl9fupjl.png"
 const Image10 = "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
-// const Image11 = "https://images.pexels.com/photos/28674713/pexels-photo-28674713/free-photo-of-delicious-indian-jeera-rice-in-ladle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-// const Image12 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+const Image11 = "https://res.cloudinary.com/dh9xotzan/image/upload/v1739823271/bum00suypnsglgvrzenf.png"
+const Image12 = "https://res.cloudinary.com/dh9xotzan/image/upload/v1739822313/xmoearftwfgp2m8wejrd.png"
 // const Image13 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 // const Image14 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 // const Image15 = "https://images.pexels.com/photos/8755221/pexels-photo-8755221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
