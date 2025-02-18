@@ -48,10 +48,11 @@ const About = () => {
       <div style={{ maxWidth: "1200px", margin: "auto", padding: "2rem 1rem" }}>
         {/* About Us Section */}
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-          <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#f7be27" }}>About Us</h2>
+          <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#f7be27" }}>
+            About Us
+          </h2>
           <p style={{ fontSize: "1.1rem", color: "#555", fontFamily: "Roboto, sans-serif" }}>
-            Welcome to <strong>Shree Mahalaxmi Caterers</strong>, where we serve delicious and high-quality food for all occasions.
-            With years of experience in catering, we ensure that every event is special and memorable.
+            Welcome to <strong>Shree Mahalaxmi Caterers</strong>, where we serve delicious and high-quality food for all occasions. With years of experience in catering, we ensure that every event is special and memorable.
           </p>
         </div>
 
@@ -82,12 +83,14 @@ const About = () => {
             alt="Charulata Prohit"
             className="owner-avatar"
           />
-          <h4 style={{ fontSize: "1.8rem", fontWeight: "bold", color: "#642f21", marginTop: "40px" }}>Charulata Prohit</h4>
-          <p style={{ fontSize: "1rem", color: "#777", fontWeight: "500", marginBottom: "1rem" }}>Founder & Social Worker</p>
+          <h4 style={{ fontSize: "1.8rem", fontWeight: "bold", color: "#642f21", marginTop: "40px" }}>
+            Charulata Prohit
+          </h4>
+          <p style={{ fontSize: "1rem", color: "#777", fontWeight: "500", marginBottom: "1rem" }}>
+            Founder & Social Worker
+          </p>
           <p style={{ fontSize: "1rem", color: "#555", lineHeight: "1.6" }}>
-            Charulata Prohit, fondly known as Sonu Tai, is the visionary behind Shree Mahalaxmi Caterers.
-            With a deep commitment to women empowerment, she has worked tirelessly with various foundations to uplift underprivileged communities,
-            particularly tribal groups. Her work goes beyond catering, as she actively supports initiatives that focus on social welfare.
+            Charulata Prohit, fondly known as Sonu Tai, is the visionary behind Shree Mahalaxmi Caterers. With a deep commitment to women empowerment, she has worked tirelessly with various foundations to uplift underprivileged communities, particularly tribal groups.
           </p>
         </div>
 
@@ -156,6 +159,7 @@ const About = () => {
           height: 300px;
           object-fit: cover;
           border-radius: 10px;
+          transition: transform 0.5s ease-in-out; /* Adding smooth transition */
         }
 
         .carousel-button {
